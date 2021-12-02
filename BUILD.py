@@ -28,7 +28,7 @@ def get_search_html():
                 .format(key=key, value=value)
         # 生成整个表单的HTML
         form_html = """
-<form action="{url}" method="GET" target="_blank">
+<form action="{url}" method="GET">
 {hidden_html}
 <input type="search" name="{key}" placeholder="{name}">
 <input type="submit" value="{name}">
