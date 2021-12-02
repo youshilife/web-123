@@ -1,0 +1,154 @@
+/* 全局 */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #333;
+}
+
+a {
+    color: #4e6ef2;
+    text-decoration: none;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+input, textarea, button {
+    outline: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+}
+
+h2 {
+    margin: 30px 0 15px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+h3 {
+    margin: 15px 0;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+h4 {
+    margin: 10px 0;
+    color: #999;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/* 布局 */
+#container {
+    padding: 30px 15px;
+    margin: 0 auto;
+}
+
+@media (min-width: 990px) {
+    #container {
+        width: 990px;
+    }
+}
+
+#header {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 30px;
+}
+
+#footer {
+    padding-top: 30px;
+    border-top: 1px solid #ccc;
+    margin-top: 30px;
+    color: #ccc;
+    font-size: 14px;
+    text-align: center;
+}
+
+#footer a {
+    color: #ccc;
+}
+
+#footer a:hover {
+    color: #4e6ef2;
+}
+
+/* 搜索 */
+
+#search form {
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+#search form input[type="search"] {
+    flex-grow: 1;
+    flex-shrink: 1;
+    display: block;
+    width: 100px;
+    border: 2px solid #c4c7ce;
+    border-right: none;
+    padding: 0 5px;
+}
+
+#search form input[type="search"]:focus {
+    border-color: #4e6ef2;
+}
+
+#search form input[type="submit"] {
+    flex-basis: 120px;
+    display: block;
+    border: none;
+    border-radius: 0;
+    background-color: #4e6ef2;
+    color: #fff;
+}
+
+/* 网址 */
+
+#nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -5px;
+}
+
+#nav li {
+    width: 50%;
+    padding-right: 5px;
+    margin-bottom: 5px;
+}
+
+@media (min-width: 630px) { /* 按每个200px计算，加上两边共30px */
+    #nav li {
+        width: 33.333333%;
+    }
+}
+
+@media (min-width: 830px) {
+    #nav li {
+        width: 25%;
+    }
+}
+
+#nav a {
+    display: block;
+    padding: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+#nav a:hover {
+    background-color: #eee;
+    color: #4e6ef2;
+}

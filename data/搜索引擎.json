@@ -1,0 +1,48 @@
+[
+    {
+        "name": "百度",
+        "url": "https://www.baidu.com/s",
+        "key": "wd",
+        "hidden": {}
+    },
+    {
+        "name": "必应国际版",
+        "url": "https://cn.bing.com/search",
+        "key": "q",
+        "hidden": {
+            "ensearch": 1
+        }
+    },
+    {
+        "name": "谷歌",
+        "url": "https://www.google.com/search",
+        "key": "q",
+        "hidden": {}
+    },
+    {
+        "name": "知乎搜索",
+        "url": "https://www.zhihu.com/search",
+        "key": "q",
+        "hidden": {
+            "type": "content"
+        }
+    },
+    {
+        "name": "Maven搜索",
+        "url": "https://search.maven.org/search",
+        "key": "q",
+        "hidden": {}
+    },
+    {
+        "name": "MDN文档搜索",
+        "url": "https://developer.mozilla.org/zh-CN/search",
+        "key": "q",
+        "hidden": {}
+    },
+    {
+        "name": "Python文档搜索",
+        "url": "https://docs.python.org/zh-cn/3/search.html",
+        "key": "q",
+        "hidden": {}
+    }
+]
