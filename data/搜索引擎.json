@@ -34,12 +34,6 @@
         "hidden": {}
     },
     {
-        "name": "Arch Wiki搜索",
-        "url": "https://wiki.archlinux.org/index.php",
-        "key": "search",
-        "hidden": {}
-    },
-    {
         "name": "Maven搜索",
         "url": "https://search.maven.org/search",
         "key": "q",
@@ -49,6 +43,12 @@
         "name": "MDN文档搜索",
         "url": "https://developer.mozilla.org/zh-CN/search",
         "key": "q",
+        "hidden": {}
+    },
+    {
+        "name": "Arch Wiki搜索",
+        "url": "https://wiki.archlinux.org/index.php",
+        "key": "search",
         "hidden": {}
     },
     {
